@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Домашнее задание 3</title>
+</head>
+<body>
+    <div class="global_container">
+        <div id="dialog" class="dialog">
+            <div class="header">
+                <div class="header_left">
+                    <div class="header_welcome">
+                        Welcome to <span class="green_text">LOREM</span>
+                    </div>
+                    <div class="header_signin">Sign in</div>
+                </div>
+                <div class="header_right">
+                    <div class="header_acc">No Account ?</div>
+                    <div class="header_signup">Sign up</div>
+                </div>
+            </div>
+            <div class="reg_icons">
+                <div class="google"></div>
+                <div class="face"></div>
+                <div class="apple"></div>
+            </div>
+            <div class="wrapper_input1">
+                <div class="label">Enter your username or email address</div>
+                <input placeholder="Username or email address"/>
+            </div>
+            <div class="wrapper_input2">
+                <div class="label">Enter your Password</div>
+                <input id="password" placeholder="Password"/>
+            </div>
+            <div class="forgot">Forgot Password</div>
+            <button id="btn" class="button_signin">Sign in</button>
+            <div id="err" class="error"></div>
+        </div>
+    </div>
+
+    <!--Окно успещного входа -->
+    <div id="acc" class="hide">
+        <div class="label_acc">Приветствую </div>
+        <div class="data_flex">
+            <div class="wrapper_data">
+                <div>Имя пользователя: </div>
+                <div>2312312323</div>
+            </div>
+            <div class="wrapper_data">
+                <div>Email: </div>
+                <div>2312312323</div>
+            </div>
+            <div class="wrapper_data">
+                <div>Дата рождения: </div>
+                <div>2312312323</div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
